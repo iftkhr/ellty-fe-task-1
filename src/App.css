@@ -1,0 +1,9 @@
+.app {
+  box-sizing: border-box;
+  width: 100dvw;
+  height: 100dvh;
+  display: grid;
+  justify-content: center;
+  background: #fff;
+  padding: 10dvh 10dvw;
+}

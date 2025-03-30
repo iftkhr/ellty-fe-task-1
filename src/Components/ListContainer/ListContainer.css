@@ -1,0 +1,133 @@
+.mainContainer {
+	display: grid;
+	gap: 10px;
+	width: 25dvw;
+	height: max-content;
+	box-shadow: 0 0 15px 0 #1414141F;
+	border-radius: 6px;
+	border: 1px solid #EEEEEE;
+	padding: 15px;
+}
+
+.listHeader {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px 18px;
+}
+
+.listSeparator {
+	width: 100%;
+	height: 1px;
+	background-color: #E0E0E0;
+}
+
+.listContainer {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	overflow-y: auto;
+
+}
+
+.listItemContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 8px 18px;
+}
+
+label {
+	width: 100%;
+	cursor: pointer;
+}
+
+input[type="checkbox"] {
+	width: 23px;
+	height: 23px;
+	border-radius: 6px;
+	appearance: none;
+	border: 1px solid #bbb;
+	padding: 2px;
+	cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+	content: url('../../assets/checkmark.svg');
+	display: block;
+	border-radius: 6px;
+	background: #2469F6;
+	border: 1px solid #2469F6;
+}
+
+input[type="checkbox"]:hover {
+	content: url('../../assets/checkmark.svg');
+	display: block;
+	border-radius: 6px;
+	background: #5087F8;
+	border: 1px solid #5087F8;
+}
+
+
+
+
+.buttonContainer {
+	padding: 10px 0px;
+}
+
+.button {
+	width: 100%;
+	padding: 15px 20px;
+	border-radius: 4px;
+	border: none;
+	background: #FFCE22;
+	font-family: Montserrat;
+}
+
+.button:hover {
+	background: #FFD84D;
+	cursor: pointer;
+}
+
+.button:active {
+	background: #FFCE22;
+}
+
+@media screen and (max-width: 1200px) {
+	.mainContainer {
+		width: 40dvw;
+	}
+
+}
+
+@media screen and (max-width: 992px) {
+	.mainContainer {
+		width: 50dvw;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.mainContainer {
+		width: 60dvw;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.mainContainer {
+		width: 70dvw;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.mainContainer {
+		width: 80dvw;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.mainContainer {
+		width: 90dvw;
+	}
+}
